@@ -1,0 +1,553 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  width: 800px;
+  height: 4072px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/* ==============================common ==============================*/
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 800px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ======================hero===================== */
+.hero {
+  /* Hero */
+  position: absolute;
+  width: 740px;
+  height: 643px;
+  left: -10px;
+  right: -8px;
+  top: -13px;
+  bottom: 3442px;
+}
+.hero .backgroug {
+  position: absolute;
+  width: 200px;
+  height: 643px;
+  left: 608px;
+  right: -68px;
+  top: -13px;
+  bottom: 13px;
+  background: rgb(245, 245, 245);
+}
+.hero .header {
+  display: flex;
+}
+.hero .menu ul {
+  display: flex;
+  margin: 57px 67px 562px 332px;
+}
+.logo img {
+  /* Logo */
+  position: absolute;
+  width: 215px;
+  height: 30px;
+  left: 60px;
+  right: 406px;
+  top: 40px;
+  bottom: -40px;
+}
+.hero .menu ul .menu1 {
+  /* About Us */
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  left: 400px;
+  right: -131px;
+  top: 44px;
+  bottom: -44px;
+}
+.hero .menu ul .menu2 {
+  /* Products */
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 524.5px;
+  right: -254.5px;
+  top: 44px;
+  bottom: -44px;
+}
+.hero .menu ul .menu3 {
+  /* Testimonial */
+  position: absolute;
+  width: 93px;
+  height: 24px;
+  left: 648px;
+  right: -400px;
+  top: 44px;
+  bottom: -44px;
+}
+.hero .menu ul .menu {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+/* ==============================content ========================*/
+.content {
+  display: flex;
+}
+.content-right img {
+  /* Image */
+  position: absolute;
+  width: 281px;
+  height: 480px;
+  left: 467px;
+  right: -8px;
+  top: 97px;
+  bottom: 66px;
+  background: rgb(222, 222, 222);
+}
+.content-left .new {
+  /* Newsletter */
+  position: absolute;
+  width: 137px;
+  height: 36px;
+  left: 68px;
+  right: 535px;
+  top: 144px;
+  bottom: 463px;
+  color: rgb(117, 181, 68);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 5%;
+  text-align: left;
+}
+.content-left .welcome {
+  /* Welcome to Nature Health */
+  position: absolute;
+  width: 345px;
+  height: 96px;
+  left: 68px;
+  right: 327px;
+  top: 180px;
+  bottom: 367px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.content-left .sed {
+  /* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. */
+  position: absolute;
+  width: 339px;
+  height: 94px;
+  left: 68px;
+  right: 333px;
+  top: 326px;
+  bottom: 223px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.content-left .btn {
+  /* Rectangle 5 */
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 68px;
+  right: -68px;
+  top: 480px;
+  bottom: -480px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(117, 181, 68);
+}
+.content-left .btn-learn {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  /* Learn More */
+  position: absolute;
+  width: 102px;
+  height: 26px;
+  left: 49px;
+  right: 49px;
+  top: 12px;
+  bottom: 12px;
+}
+/* ================section====================== */
+.section {
+  /* Background Section */
+  position: absolute;
+  width: 800px;
+  height: 489px;
+  left: 0;
+  right: 0;
+  top: 703px;
+  bottom: -703px;
+  background: rgb(245, 245, 245);
+}
+.section .about {
+  display: flex;
+}
+.section .about .desc {
+  width: 155px;
+  height: 36px;
+  color: rgb(117, 181, 68);
+  font-size: 2.4rem;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.section .about .about-na {
+  width: 379px;
+  height: 36px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+  margin-left: 60px;
+}
+.section .about .btn {
+  width: 112px;
+  height: 28px;
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(117, 181, 68);
+  margin-top: 100px;
+  margin-left: 189px;
+  justify-content: center;
+  align-items: center;
+}
+.section .about .btn a {
+  width: 58px;
+  height: 14.56px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 27px;
+}
+.section .ads-chua {
+  display: flex;
+}
+.section .capture .ads {
+  width: 211px;
+  height: 247px;
+
+  margin-left: 24px;
+  margin-top: 50px;
+}
+.section .capture .ads1 {
+  margin-left: 60px;
+}
+.section .capture .ads:hover {
+  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
+  background: rgb(117, 181, 68);
+  color: rgb(255, 255, 255);
+}
+.section .capture .ads .mat {
+  width: 45px;
+  height: 32.77px;
+  margin-left: 83px;
+  margin-top: 40px;
+}
+.section .capture .ads .desc {
+  width: 63px;
+  height: 30px;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 21px;
+  margin-left: 64px;
+}
+.section .capture .desc2 {
+  width: 171px;
+  height: 61px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+/* ====================plant========================== */
+.plant {
+  /* Body */
+  position: absolute;
+  width: 680px;
+  height: 680px;
+
+  right: 120px;
+  top: 1252px;
+  bottom: 2140px;
+}
+.plant .content-1 .img img {
+  width: 310px;
+  height: 310px;
+  background: rgb(222, 222, 222);
+}
+.plant .plant-chinh {
+  display: flex;
+}
+.plant .content-1 {
+  /* Content 1 */
+  position: absolute;
+  width: 680px;
+  height: 310px;
+}
+.plant .sed .care {
+  width: 246px;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.plant .sed .desc {
+  width: 295px;
+  height: 121px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.plant .img {
+  width: 310px;
+  height: 310px;
+  margin-left: 75px;
+}
+/* =====================content-2================ */
+.content-2 {
+  /* Content 2 */
+
+  position: absolute;
+  width: 665px;
+  height: 310px;
+  margin-top: 430px;
+  margin-left: -60px;
+}
+.plant .content-2 .img img {
+  width: 310px;
+  height: 310px;
+  background: rgb(222, 222, 222);
+}
+.content-2 .plant-chinh {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+}
+.plant .content-2 {
+  /* Content 1 */
+  position: absolute;
+  width: 680px;
+  height: 310px;
+}
+.content-2 .sed .care {
+  width: 246px;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.plant .sed .desc {
+  width: 295px;
+  height: 121px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.plant .img {
+  width: 310px;
+  height: 310px;
+  margin-left: 75px;
+}
+/* =================map==================== */
+.map img {
+  /* Map */
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  left: 0;
+  right: 0;
+  top: 1992px;
+  bottom: -1992px;
+  margin-top: 60px;
+}
+.contact {
+  /* Contact */
+  position: absolute;
+  width: 680px;
+  height: 373px;
+  left: 0px;
+
+  top: 1822px;
+  bottom: 1247px;
+}
+/* ===================contac================= */
+.contact {
+  /* Contact */
+  position: absolute;
+  width: 680px;
+  height: 373px;
+  left: 60px;
+  right: 60px;
+  top: 2452px;
+  bottom: 1247px;
+}
+.contact .about {
+  display: flex;
+}
+.contact .about .desc {
+  width: 155px;
+  height: 36px;
+  color: rgb(117, 181, 68);
+  font-size: 2.4rem;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.contact .about .about-na {
+  width: 379px;
+  height: 36px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+  margin-left: 60px;
+}
+.contact .about .btn {
+  width: 112px;
+  height: 28px;
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(117, 181, 68);
+  margin-top: 100px;
+  margin-left: 189px;
+  justify-content: center;
+  align-items: center;
+}
+.contact .about .btn a {
+  width: 58px;
+  height: 14.56px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 27px;
+}
+.contact .ads-chua {
+  display: flex;
+}
+.contact .capture .ads {
+  width: 211px;
+  height: 247px;
+
+  margin-left: 24px;
+  margin-top: 50px;
+}
+.contact .capture .ads1 {
+  margin-left: 60px;
+}
+.contact .capture .ads:hover {
+  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
+  background: rgb(117, 181, 68);
+  color: rgb(255, 255, 255);
+}
+.contact .capture .ads .mat {
+  width: 45px;
+  height: 32.77px;
+  margin-left: 83px;
+  margin-top: 40px;
+}
+.contact .capture .ads .desc {
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.contact .capture .desc2 {
+  width: 171px;
+  height: 61px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
